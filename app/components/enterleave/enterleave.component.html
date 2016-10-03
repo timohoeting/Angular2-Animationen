@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3" style="margin-bottom: 40px;">
+            <input type="text" [(ngModel)]="newTask">
+            <button class="btn btn-default" (click)="add()">Neu hinzufügen</button>
+            <button class="btn btn-default" (click)="remove()">Letztes Element löschen</button>
+        </div>
+    </div>
+    <div class="row" *ngFor="let obj of tasklist" [@flyInOut]="'in'">
+      <div class="col-md-6 col-md-offset-3 panel panel-default">
+        <div class="panel-body" >
+        <h4>{{obj.name}}</h4>
+        </div>
+      </div>
+    </div>
+</div>
+    
+    
