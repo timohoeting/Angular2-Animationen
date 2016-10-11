@@ -7,6 +7,7 @@ import { routing } from './app.routing';
 import { FormsModule } from '@angular/forms';
 
 import { EnterLeaveComponent } from './components/enterleave/enterleave.component';
+import { DifferenstatesComponent } from './components/differentstates/differentstates.component';
 
 @NgModule({
     imports: [ 
@@ -17,7 +18,8 @@ import { EnterLeaveComponent } from './components/enterleave/enterleave.componen
     ],
     declarations: [ 
         AppComponent,
-        EnterLeaveComponent
+        EnterLeaveComponent,
+        DifferenstatesComponent
     ],
     providers: [
         {

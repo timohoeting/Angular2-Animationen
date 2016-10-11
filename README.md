@@ -5,6 +5,7 @@ Dieses Projekt dient der Übung mit Animationen.
 Implementiert
 -----------
 1. Enter and Leave
+2. Enter and Leave with different states
 
 Installation
 -----------

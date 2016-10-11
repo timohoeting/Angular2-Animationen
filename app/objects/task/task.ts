@@ -1,3 +1,3 @@
 export class Task {
-    constructor(public id: number, public name: string, public done: boolean = false){ }
+    constructor(public id: number, public name: string, public done: boolean = false, public state = 'inactive'){ }
 }
